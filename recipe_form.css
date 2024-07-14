@@ -1,0 +1,43 @@
+body {
+    font-family: "Lucida Handwriting", Lucida, cursive;
+    background-color:  #36393e;
+    color: rgba(245, 245, 245, 0.842);
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+#recipe {
+    margin: 0.5%;
+}
+.ingredients, .instructions{
+    margin:1%;
+    padding:1%;
+    vertical-align:top
+}
+
+#recipeName, #ingredients, #instructions {
+    font-family: "Lucida Handwriting", Lucida, cursive;
+    border-radius: 15px;
+    background-color: #43474d;
+    color: rgba(245, 245, 245, 0.842);
+    margin: 1%;
+}
+
+button {
+    font-weight: bold;
+    font-family: "Lucida Handwriting", Lucida, cursive;
+    border-radius: 25px;
+    margin: 1%;
+    padding: 2.5%;
+    color: rgba(245, 245, 245, 0.842);
+    background-color: #43474d;
+}
+
+button:hover {
+    border-radius: 25px;
+    margin: 1%;
+    padding: 2.5%;
+    color: rgba(245, 245, 245, 0.842);
+    background-color: #470d0d;
+}
